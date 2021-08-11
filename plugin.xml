@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?> 
+<plugin id="com-huawei-cordovahmsgmscheckplugin" version="1.0.0"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>CordovaHMSGMSCheckPlugin</name>
+
+    <js-module name="CordovaHMSGMSCheckPlugin" src="www/CordovaHMSGMSCheckPlugin.js">
+        <runs/>
+        <clobbers target="CordovaHMSGMSCheckPlugin" />
+    </js-module>
+    
+    <platform name="android">
+        <js-module name="CordovaHMSGMSCheckPlugin" src="www/CordovaHMSGMSCheckPlugin.js">
+            <clobbers target="window.CordovaHMSGMSCheckPlugin" />
+        </js-module>
+
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="CordovaHMSGMSCheckPlugin">
+                <param name="android-package" value="com.huawei.cordovahmsgmscheckplugin.CordovaHMSGMSCheckPlugin" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+        <!-- Android dependencies -->
+        <framework src="com.google.firebase:firebase-messaging:22.0.0"/>
+        <!-- Account Kit dependency-->
+        <source-file src="src/android/CordovaHMSGMSCheckPlugin.java" target-dir="src/com/huawei/cordovahmsgmscheckplugin" />
+    </platform>
+
+</plugin>
