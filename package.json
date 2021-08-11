@@ -1,5 +1,5 @@
 {
-    "name": "com-huawei-cordovahmsgmsverifyplugin",
+    "name": "com-huawei-cordovahmsgmscheckverifyplugin",
     "version": "1.0.1"
     "description": "This plugin is for identify if is available Google services or Huawei Services. Based on https://github.com/salmanyaqoob/Cordova-All-HMS-Kits/tree/master/CordovaHMSPlugin/CordovaHMSGMSCheckPlugin",
       "author": "Daniel Ideriba",
@@ -8,7 +8,7 @@
       },
       "bundleDependencies": false,
       "cordova": {
-        "id": "com-huawei-cordovahmsgmsverifyplugin",
+        "id": "com-huawei-cordovahmsgmscheckverifyplugin",
         "platforms": [
           "android"
         ]
@@ -21,7 +21,7 @@
         "cordova-android"
       ],
       "license": "ISC",
-      "name": "com-huawei-cordovahmsgmsverifyplugin",
+      "name": "com-huawei-cordovahmsgmscheckverifyplugin",
       "repository": {
         "type": "git",
         "url": "git@github.com:danielideriba/CordovaHMSGMSCheckVerifyPlugin.git"

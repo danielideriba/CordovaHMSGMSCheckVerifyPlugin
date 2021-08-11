@@ -1,4 +1,4 @@
-package com.huawei.cordovahmsgmscheckplugin;
+package com.huawei.cordovahmsgmscheckverifyplugin;
 
 import android.content.Context;
 import android.content.Intent;
@@ -19,9 +19,9 @@ import org.json.JSONObject;
 /**
  * This class echoes a string called from JavaScript.
  */
-public class CordovaHMSGMSCheckPlugin extends CordovaPlugin {
+public class CordovaHMSGMSCheckVerifyPlugin extends CordovaPlugin {
 
-    private static final String TAG = CordovaHMSGMSCheckPlugin.class.getSimpleName();
+    private static final String TAG = CordovaHMSGMSCheckVerifyPlugin.class.getSimpleName();
     private CallbackContext mCallbackContext;
 
     @Override

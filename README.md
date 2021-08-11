@@ -1,12 +1,11 @@
 # Welcome to com-huawei-cordovahmsgmsverifyplugin!
 
-this plugin is for indetify if is available Google services o Huawei Services.
-Based on https://github.com/salmanyaqoob/Cordova-All-HMS-Kits/tree/master/CordovaHMSPlugin/CordovaHMSGMSCheckPlugin
+This plugin is for identify if is available Google services or Huawei Services. Based on https://github.com/salmanyaqoob/Cordova-All-HMS-Kits/tree/master/CordovaHMSPlugin/CordovaHMSGMSCheckPlugin and https://github.com/horaas/CordovaHMSGMSCheckPlugin
 
 # Install
 
     cordova plugin add com-huawei-cordovahmsgmsverifyplugin
-    cordova plugin add https://github.com/horaas/CordovaHMSGMSCheckPlugin.git
+    cordova plugin add https://github.com/danielideriba/CordovaHMSGMSCheckVerifyPlugin.git
 
 ## Use
 
