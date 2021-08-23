@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <name>CordovaHMSGMSCheckVerifyPlugin</name>
 
-    <js-module name="CordovaHMSGMSCheckPlugin" src="www/CordovaHMSGMSCheckPlugin.js">
+    <js-module name="CordovaHMSGMSCheckVerifyPlugin" src="www/CordovaHMSGMSCheckPlugin.js">
         <runs/>
         <clobbers target="CordovaHMSGMSCheckPlugin" />
     </js-module>
